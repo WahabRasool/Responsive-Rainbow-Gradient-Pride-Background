@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to bottom, 
+                                rgba(255, 0, 0, 1) 0%,       /* Red */
+                                rgba(255, 0, 0, 1) 14.29%,   /* Red */
+                                rgba(255, 165, 0, 1) 14.29%, /* Orange */
+                                rgba(255, 165, 0, 1) 28.57%, /* Orange */
+                                rgba(255, 255, 0, 1) 28.57%, /* Yellow */
+                                rgba(255, 255, 0, 1) 42.86%, /* Yellow */
+                                rgba(0, 128, 0, 1) 42.86%,   /* Green */
+                                rgba(0, 128, 0, 1) 57.14%,   /* Green */
+                                rgba(0, 0, 255, 1) 57.14%,   /* Blue */
+                                rgba(0, 0, 255, 1) 71.43%,   /* Blue */
+                                rgba(75, 0, 130, 1) 71.43%,  /* Indigo */
+                                rgba(75, 0, 130, 1) 85.71%,  /* Indigo */
+                                rgba(238, 130, 238, 1) 85.71%,/* Violet */
+                                rgba(238, 130, 238, 1) 100%  /* Violet */
+                               );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    transition: filter 0.3s; /* Smooth transition for brightness adjustment */
+}
